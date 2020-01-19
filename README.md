@@ -10,10 +10,16 @@ The command can be executed via `npx`.
 npx league-http GET /lol-summoner/v1/current-summoner
 ```
 
+Or alternatively, installed globally via NPM.
+
+```
+npm i -g league-http
+```
+
 **Manual**
 
 ```
-npx [Method] [Endpoint] [Body?]
+lolhttp [Method] [Endpoint] [Body?]
 ```
 
 - *Method*: Any of "GET", "POST", "PUT", "PATCH" or "DELETE"
