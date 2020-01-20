@@ -7,7 +7,7 @@ A minimal http client for the League of Legends Client APIs for the commandline.
 The command can be executed via `npx`.
 
 ```
-npx league-http GET /lol-summoner/v1/current-summoner
+npx league-http GET lol-summoner/v1/current-summoner
 ```
 
 Or alternatively, installed globally via NPM.
